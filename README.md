@@ -40,4 +40,6 @@ Ex: Hi Alexa! Turn on the central AC.
 This command is received from Alexa through human and then sent to IOT Device. The IOT Device will then send to the appliance. In this case, the appliance in Airconditioner. 
 The interpreter design pattern will parse the command using regular expression and then sends the commands to appliance. 
 
+Sample output
 
+![alt text](DesignPatternsDemo/Resources/interpreterPatternConsoleOutput.png)
