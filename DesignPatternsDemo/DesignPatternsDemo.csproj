@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Creational\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Behavioral\Interpreter\Readme.txt" />

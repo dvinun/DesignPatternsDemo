@@ -1,4 +1,6 @@
-﻿namespace Dvinun.DesignPatterns.Demo
+﻿using System;
+
+namespace Dvinun.DesignPatterns.Demo
 {
     class Program
     {
@@ -6,11 +8,12 @@
         {
             // uncomment/comment below to test the desired design patterns.
 
-            Behavioral.Memento.Gamer.Play();
+            //Behavioral.Memento.Gamer.Play();
 
             //Behavioral.Command.PlayDemo();
 
-            //Behavioral.Interpreter.PlayDemo();
+            Console.ReadKey();
+            Behavioral.Interpreter.PlayDemo();
 
             //Structural.Adapter.PlayDemo();
 
